@@ -40,7 +40,7 @@ body
 .redondo1
 {
     grid-area: a;
-    background-color: red;
+    background-color: black;
     
 
 }
@@ -48,7 +48,8 @@ body
 .redondo2
 {
     grid-area: i;
-    background-color: green;
+    background-color: black;
+    justify-self: flex-start;
     
 }
 
@@ -56,7 +57,8 @@ body
 .redondo3
 {
     grid-area: d;
-    background-color: yellow;
+    background-color: black;
+    justify-self: flex-end;
     
 }
 
@@ -76,17 +78,17 @@ body
 
 .redondo2:hover
 {
-    background-color: blue;
+    background-color: rgb(172, 12, 12);
 }
 
 
 .redondo3:hover
 {
-    background-color: blue;
+    background-color: rgb(29, 114, 25);
 }
 
 .redondo4:hover
 {
-    background-color: blue;
+    background-color: rgb(225, 212, 38);
 }
 
