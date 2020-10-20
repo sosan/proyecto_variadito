@@ -2,3 +2,91 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+body
+{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.contenedor
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    grid-template-areas:
+    ". a ."
+    "i . d"
+    ". b ."
+    
+    ;
+
+    width: 100%;
+    height: 100%;
+
+    justify-items: center;
+    align-items: center;
+
+}
+
+.redondo
+{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.redondo1
+{
+    grid-area: a;
+    background-color: red;
+    
+
+}
+
+.redondo2
+{
+    grid-area: i;
+    background-color: green;
+    
+}
+
+
+.redondo3
+{
+    grid-area: d;
+    background-color: yellow;
+    
+}
+
+.redondo4
+{
+    grid-area: b;
+    background-color: black;
+}
+
+
+.redondo1:hover
+{
+    background-color: blue;
+}
+
+
+
+.redondo2:hover
+{
+    background-color: blue;
+}
+
+
+.redondo3:hover
+{
+    background-color: blue;
+}
+
+.redondo4:hover
+{
+    background-color: blue;
+}
+
