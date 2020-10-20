@@ -17,7 +17,7 @@ body
 
     grid-template-areas:
     ". a ."
-    "i . d"
+    "i c d"
     ". b ."
     
     ;
@@ -27,6 +27,15 @@ body
 
     justify-items: center;
     align-items: center;
+
+}
+
+.contactar
+{
+    grid-area: c;
+    font-size: 3rem;
+    
+
 
 }
 
