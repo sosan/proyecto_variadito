@@ -30,7 +30,7 @@ body
 
 }
 
-.contactar
+.contenedor__contactar
 {
     grid-area: c;
     font-size: 3rem;
@@ -40,14 +40,22 @@ body
 }
 
 
-.redondo
+.contenedor__redondo
 {
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
 
-.redondo1
+
+.redondo__redondo
+{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor__redondo1
 {
     grid-area: a;
     background-color: black;
@@ -55,7 +63,7 @@ body
 
 }
 
-.redondo2
+.contenedor__redondo2
 {
     grid-area: i;
     background-color: black;
@@ -64,7 +72,7 @@ body
 }
 
 
-.redondo3
+.contenedor__redondo3
 {
     grid-area: d;
     background-color: black;
@@ -72,7 +80,7 @@ body
     
 }
 
-.redondo4
+.contenedor__redondo4
 {
     grid-area: b;
     background-color: black;
@@ -80,25 +88,25 @@ body
 }
 
 
-.redondo1:hover
+.contenedor__redondo1:hover
 {
     background-color: blue;
 }
 
 
 
-.redondo2:hover
+.contenedor__redondo2:hover
 {
     background-color: rgb(172, 12, 12);
 }
 
 
-.redondo3:hover
+.contenedor__redondo3:hover
 {
     background-color: rgb(29, 114, 25);
 }
 
-.redondo4:hover
+.contenedor__redondo4:hover
 {
     background-color: rgb(225, 212, 38);
 }
