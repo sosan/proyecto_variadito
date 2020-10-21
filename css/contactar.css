@@ -1,0 +1,92 @@
+body, main, .section__ojo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
+.section__ojo
+{
+    width: 200px;
+    height: 200px;
+
+    position: relative;
+}
+
+
+.section__ojo:hover ~ ojo__negro
+{
+    opacity: 0;
+
+    transform: scale(0.9);
+    transition: 250ms ease-in-out;
+
+
+}
+
+.tamano
+{
+    width: 200px;
+    height: 200px;
+
+}
+
+
+.ojo__rojo
+{   
+
+
+    background-color: red;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+}
+
+.ojo__negro
+{   
+
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+} */
+
+
+.header
+{
+    align-self: flex-start;
+
+}
+
+
+.main{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+.ojo{
+	transition: 2s;
+	display: block;
+	width: 300px;
+	height: 300px;
+	background-image: url(https://www.teleadhesivo.com/es/img/asfs719-png/folder/products-detalle-png/pegatinas-coches-motos-ojo-monstruos-sa.png);
+	background-size: cover;
+	background-position: center ;
+	border-radius: 50%;
+	border-top: 150px solid green;
+	border-bottom: 150px solid green;
+	box-sizing: border-box;
+}
+.ojo:hover{
+	transition: 0.5s;
+	border-top: 0px solid green;
+	border-bottom: 0px solid green;
+}
